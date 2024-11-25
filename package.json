@@ -21,7 +21,8 @@
     "lint": "biome lint ./src/*.ts",
     "lint:fix": "biome lint --write ./src/*.ts",
     "format": "biome format ./src/*.ts",
-    "format:fix": "biome format --write ./src/*.ts"
+    "format:fix": "biome format --write ./src/*.ts",
+    "release": "pnpm run build && changeset publish"
   },
   "keywords": [
     "events",
