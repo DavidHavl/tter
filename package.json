@@ -1,0 +1,77 @@
+{
+  "name": "@davidhavl/tter",
+  "version": "1.0.0",
+  "author": {
+    "name": "David Havl",
+    "email": "contact@davidhavl.com",
+    "url": "https://github.com/DavidHavl"
+  },
+  "description": "Fully typed Event Emitter",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "vitest --run",
+    "coverage": "vitest run --coverage",
+    "build": "tsup ./src/index.ts --format esm,cjs --dts",
+    "lint": "biome lint ./src/*.ts",
+    "lint:fix": "biome lint --write ./src/*.ts",
+    "format": "biome format ./src/*.ts",
+    "format:fix": "biome format --write ./src/*.ts"
+  },
+  "keywords": [
+    "events",
+    "event",
+    "emitter",
+    "eventemitter",
+    "event-emitter",
+    "cloudflare",
+    "workers",
+    "nodejs",
+    "async",
+    "emit",
+    "on",
+    "once",
+    "off",
+    "listener",
+    "subscribe",
+    "unsubscribe",
+    "pubsub",
+    "tiny",
+    "addlistener",
+    "addeventlistener",
+    "dispatch",
+    "dispatcher",
+    "observer",
+    "trigger",
+    "await",
+    "promise",
+    "typescript",
+    "ts",
+    "typed"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidHavl/tter.git"
+  },
+  "homepage": "https://github.com/DavidHavl/tter",
+  "bugs": {
+    "url": "https://github.com/DavidHavl/tter/issues"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@changesets/cli": "^2.27.10",
+    "@vitest/coverage-v8": "^2.1.5",
+    "tsup": "^8.3.5",
+    "typescript": "^5.5.4",
+    "vitest": "^2.1.5"
+  }
+}
