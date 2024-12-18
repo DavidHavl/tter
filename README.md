@@ -4,10 +4,9 @@
 [![Build Status](https://github.com/davidhavl/tter/workflows/CI/badge.svg)](https://github.com/davidhavl/tter/actions)
 [![Coverage Status](https://coveralls.io/repos/github/DavidHavl/tter/badge.svg?branch=main)](https://coveralls.io/github/DavidHavl/tter?branch=main)
 [![Bundle Size](https://img.shields.io/bundlephobia/minzip/%40davidhavl%2Ftter)](https://bundlephobia.com/package/%40davidhavl%2Ftter)
-[![Dependencies Status](https://status.david-dm.org/gh/davidhavl/tter.svg)](https://david-dm.org/davidhavl/tter)
 [![License](https://img.shields.io/npm/l/%40davidhavl%2Ftter.svg)](https://github.com/davidhavl/tter/blob/main/LICENSE)
 
-### Minimal, lightweight, fully typed and edge compatible Event Emitter.
+### Minimal, lightweight (~1kB), fully typed and edge compatible Event Emitter.
 
 ## Table of Contents
 1. [Introduction](#introduction)
